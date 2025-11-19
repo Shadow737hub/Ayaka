@@ -19,6 +19,8 @@
 # Contact for permissions:
 # Email: badboy809075@gmail.com
 
+import asyncio
+asyncio.set_event_loop_policy(asyncio.DefaultEventLoopPolicy())
 
 from ShrutiMusic.core.bot import Aviax
 from ShrutiMusic.core.dir import dirr
